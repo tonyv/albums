@@ -1,5 +1,7 @@
 // Index.ios.js - place code in here for iOS
 
+// Props - pass data from parent to child component
+// State - component's internal record keeping
 
 // Import a library to help create a component
 import React from 'react';
@@ -10,7 +12,7 @@ import AlbumList from './src/components/AlbumList';
 // Create a component
 // JS function that returns JSX
 const App = () =>  (
-  <View>
+  <View style={{ flex: 1 }}>
     <Header headerText={'Albums'} />
     <AlbumList />
   </View>
